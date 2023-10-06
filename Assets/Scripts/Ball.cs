@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//We do be balling
 public class Ball : MonoBehaviour
 {
+    
     [SerializeField]
     float velocidad = 5, deteccionHorizontal =0.4f, fuerzaEmpuje = 2;
     Rigidbody2D rb;
